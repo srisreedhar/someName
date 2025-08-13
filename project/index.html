@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigDataSchool - Learn Big Data & Analytics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="index.html">
+                <i class="fas fa-database me-2"></i>BigDataSchool
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="workshops.html">Workshops</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <button class="btn btn-outline-primary me-2">Sign In</button>
+                    <button class="btn btn-primary">Join Free</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section bg-gradient-primary text-white py-5">
+        <div class="container">
+            <div class="row align-items-center min-vh-75">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Master Big Data & Analytics with Industry Experts</h1>
+                    <p class="lead mb-4">Join thousands of learners worldwide in our comprehensive data science and big data courses. Build real-world skills that employers demand.</p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <button class="btn btn-light btn-lg px-4">Explore Courses</button>
+                        <button class="btn btn-outline-light btn-lg px-4">
+                            <i class="fas fa-play me-2"></i>Watch Demo
+                        </button>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-4">
+                            <h3 class="fw-bold">50K+</h3>
+                            <small>Students</small>
+                        </div>
+                        <div class="col-4">
+                            <h3 class="fw-bold">200+</h3>
+                            <small>Courses</small>
+                        </div>
+                        <div class="col-4">
+                            <h3 class="fw-bold">95%</h3>
+                            <small>Job Placement</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="position-relative">
+                        <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                             alt="Data Analytics" class="img-fluid rounded-3 shadow-lg">
+                        <div class="position-absolute top-50 start-50 translate-middle">
+                            <button class="btn btn-light rounded-circle p-3 shadow-lg">
+                                <i class="fas fa-play text-primary"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Courses -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-dark">Featured Courses</h2>
+                <p class="text-muted">Start your data journey with our most popular courses</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card course-card h-100 shadow-sm">
+                        <img src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                             class="card-img-top" alt="Python for Data Science">
+                        <div class="card-body d-flex flex-column">
+                            <span class="badge bg-primary mb-2 align-self-start">Beginner</span>
+                            <h5 class="card-title">Python for Data Science</h5>
+                            <p class="card-text text-muted flex-grow-1">Master Python programming for data analysis, visualization, and machine learning applications.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <small class="text-muted ms-1">(4.9)</small>
+                                </div>
+                                <span class="fw-bold text-primary">$49</span>
+                            </div>
+                            <a href="course-detail.html" class="btn btn-primary mt-3">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card course-card h-100 shadow-sm">
+                        <img src="https://images.pexels.com/photos/3184317/pexels-photo-3184317.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                             class="card-img-top" alt="Machine Learning">
+                        <div class="card-body d-flex flex-column">
+                            <span class="badge bg-warning mb-2 align-self-start">Intermediate</span>
+                            <h5 class="card-title">Machine Learning Fundamentals</h5>
+                            <p class="card-text text-muted flex-grow-1">Learn supervised and unsupervised learning algorithms with hands-on projects.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <small class="text-muted ms-1">(4.8)</small>
+                                </div>
+                                <span class="fw-bold text-primary">$89</span>
+                            </div>
+                            <a href="course-detail.html" class="btn btn-primary mt-3">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card course-card h-100 shadow-sm">
+                        <img src="https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                             class="card-img-top" alt="Big Data">
+                        <div class="card-body d-flex flex-column">
+                            <span class="badge bg-danger mb-2 align-self-start">Advanced</span>
+                            <h5 class="card-title">Big Data with Apache Spark</h5>
+                            <p class="card-text text-muted flex-grow-1">Process large datasets efficiently using Apache Spark and distributed computing.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <small class="text-muted ms-1">(4.7)</small>
+                                </div>
+                                <span class="fw-bold text-primary">$129</span>
+                            </div>
+                            <a href="course-detail.html" class="btn btn-primary mt-3">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Paths -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-dark">Learning Paths</h2>
+                <p class="text-muted">Structured programs to achieve your career goals</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="card path-card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="icon-circle bg-primary text-white me-3">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <h4 class="card-title mb-0">Data Analyst</h4>
+                            </div>
+                            <p class="card-text text-muted mb-4">Master data visualization, statistical analysis, and business intelligence tools.</p>
+                            <div class="row text-center mb-4">
+                                <div class="col-4">
+                                    <strong>6</strong><br>
+                                    <small class="text-muted">Courses</small>
+                                </div>
+                                <div class="col-4">
+                                    <strong>3-6</strong><br>
+                                    <small class="text-muted">Months</small>
+                                </div>
+                                <div class="col-4">
+                                    <strong>Beginner</strong><br>
+                                    <small class="text-muted">Level</small>
+                                </div>
+                            </div>
+                            <a href="courses.html" class="btn btn-outline-primary">View Path</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card path-card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="icon-circle bg-success text-white me-3">
+                                    <i class="fas fa-robot"></i>
+                                </div>
+                                <h4 class="card-title mb-0">Data Scientist</h4>
+                            </div>
+                            <p class="card-text text-muted mb-4">Learn machine learning, deep learning, and advanced analytics techniques.</p>
+                            <div class="row text-center mb-4">
+                                <div class="col-4">
+                                    <strong>10</strong><br>
+                                    <small class="text-muted">Courses</small>
+                                </div>
+                                <div class="col-4">
+                                    <strong>6-12</strong><br>
+                                    <small class="text-muted">Months</small>
+                                </div>
+                                <div class="col-4">
+                                    <strong>Advanced</strong><br>
+                                    <small class="text-muted">Level</small>
+                                </div>
+                            </div>
+                            <a href="courses.html" class="btn btn-outline-success">View Path</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Workshops -->
+    <section class="py-5">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-5">
+                <div>
+                    <h2 class="fw-bold text-dark">Upcoming Workshops</h2>
+                    <p class="text-muted">Live sessions with industry experts</p>
+                </div>
+                <a href="workshops.html" class="btn btn-outline-primary">View All</a>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card workshop-card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-3">
+                                <span class="badge bg-success">Live Workshop</span>
+                                <small class="text-muted">2 hours</small>
+                            </div>
+                            <h5 class="card-title">Data Visualization with Tableau</h5>
+                            <p class="card-text text-muted">Create compelling visualizations and interactive dashboards.</p>
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-calendar text-primary me-2"></i>
+                                <span>March 15, 2025 - 2:00 PM EST</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-user text-primary me-2"></i>
+                                <span>Dr. Sarah Johnson</span>
+                            </div>
+                            <a href="workshop-detail.html" class="btn btn-primary">Register Free</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card workshop-card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-3">
+                                <span class="badge bg-warning">Premium</span>
+                                <small class="text-muted">3 hours</small>
+                            </div>
+                            <h5 class="card-title">Advanced SQL Techniques</h5>
+                            <p class="card-text text-muted">Master complex queries, window functions, and optimization.</p>
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-calendar text-primary me-2"></i>
+                                <span>March 18, 2025 - 10:00 AM EST</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-user text-primary me-2"></i>
+                                <span>Mike Chen</span>
+                            </div>
+                            <a href="workshop-detail.html" class="btn btn-primary">Register $25</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card workshop-card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-3">
+                                <span class="badge bg-info">Recorded</span>
+                                <small class="text-muted">1.5 hours</small>
+                            </div>
+                            <h5 class="card-title">Introduction to MLOps</h5>
+                            <p class="card-text text-muted">Deploy and manage machine learning models in production.</p>
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-play text-primary me-2"></i>
+                                <span>Available Now</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-user text-primary me-2"></i>
+                                <span>Alex Rodriguez</span>
+                            </div>
+                            <a href="workshop-detail.html" class="btn btn-primary">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-3">
+                        <i class="fas fa-database me-2"></i>BigDataSchool
+                    </h5>
+                    <p class="text-muted">Empowering the next generation of data professionals with world-class education and hands-on experience.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold mb-3">Courses</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-muted text-decoration-none">Data Science</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Machine Learning</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Big Data</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Analytics</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold mb-3">Resources</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-muted text-decoration-none">Blog</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Help Center</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Career Guidance</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Community</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold mb-3">Company</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-muted text-decoration-none">About Us</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Careers</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Press</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold mb-3">Legal</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-muted text-decoration-none">Terms</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Privacy</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Cookies</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Accessibility</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center text-muted">
+                <p>&copy; 2025 BigDataSchool. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
